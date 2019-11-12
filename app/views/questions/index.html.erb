@@ -1,0 +1,8 @@
+<% @questions.each do |question| %>
+
+  <p> <%= question.question %> </p>
+
+  <%= link_to name = 'True', question.answer  %>
+  <%= link_to name = 'False', question.answer  %>
+
+<% end %>
