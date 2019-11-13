@@ -1,85 +1,85 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Jomolhari', serif;
-}
-
-#question {
-  font-size: 5vw;
-}
-
-.buttons {
-  display: flex;
-}
-
-p {
-  animation: craziness 10s reverse;
-  font-family: 'Jomolhari', serif;
-  padding: .4rem;
-  margin: .3rem;
-  text-align: justify;
-}
-
-#true_button, #false_button {
-  text-align: center;
-  border: .2rem solid black;
-  padding: .1rem;
-  margin: 1rem;
-  border-radius: 10%;
-  font-size: 5vw;
-  width: 30vw;
-  box-shadow: 5px 5px;
-  animation: craziness 10s forwards;
-}
-
-#true_button:active {
-  background-color: green;
-  box-shadow: 5px 1px;
-}
-
-#false_button:active {
-  background-color: red;
-}
-
-@media screen and (min-width: 1024px) {
-  @keyframes craziness {
-    0% {
-    transform: translate(0,0);
-  }
-  20% {
-    transform: translate(-10vh,-10vh);
-    opacity: .8;
-  }
-  40% {
-    transform: translate(10vh,-20vh);
-    opacity: .6;
-  }
-  60% {
-    transform: translate(-10vh,-30vh);
-    opacity: .4;
-  }
-  80% {
-    transform: translate(10vh,-40vh);
-    opacity: .2;
-  }
-  100% {
-    transform: translate(-10vh,-50vh);
-    opacity: 0;
-  }
-}
-  // body {
-  //   background-color: green;
-  // }
-
-  h1 {
-    color: red;
-  }
-
-  #true_button, #false_button, #question {
-    font-size: 2rem;
-  }
-}
+//
+// a {
+//   text-decoration: none;
+//   color: black;
+//   font-family: 'Jomolhari', serif;
+// }
+//
+// #question {
+//   font-size: 5vw;
+// }
+//
+// .buttons {
+//   display: flex;
+// }
+//
+// p {
+//   animation: craziness 10s reverse;
+//   font-family: 'Jomolhari', serif;
+//   padding: .4rem;
+//   margin: .3rem;
+//   text-align: justify;
+// }
+//
+// #true_button, #false_button {
+//   text-align: center;
+//   border: .2rem solid black;
+//   padding: .1rem;
+//   margin: 1rem;
+//   border-radius: 10%;
+//   font-size: 5vw;
+//   width: 30vw;
+//   box-shadow: 5px 5px;
+//   animation: craziness 10s forwards;
+// }
+//
+// #true_button:active {
+//   background-color: green;
+//   box-shadow: 5px 1px;
+// }
+//
+// #false_button:active {
+//   background-color: red;
+// }
+//
+// @media screen and (min-width: 1024px) {
+//   @keyframes craziness {
+//     0% {
+//     transform: translate(0,0);
+//   }
+//   20% {
+//     transform: translate(-10vh,-10vh);
+//     opacity: .8;
+//   }
+//   40% {
+//     transform: translate(10vh,-20vh);
+//     opacity: .6;
+//   }
+//   60% {
+//     transform: translate(-10vh,-30vh);
+//     opacity: .4;
+//   }
+//   80% {
+//     transform: translate(10vh,-40vh);
+//     opacity: .2;
+//   }
+//   100% {
+//     transform: translate(-10vh,-50vh);
+//     opacity: 0;
+//   }
+// }
+//   // body {
+//   //   background-color: green;
+//   // }
+//
+//   h1 {
+//     color: red;
+//   }
+//
+//   #true_button, #false_button, #question {
+//     font-size: 2rem;
+//   }
+// }
