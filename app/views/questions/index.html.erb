@@ -1,8 +1,11 @@
+<h1> Questions </h1>
 <% @questions.each do |question| %>
 
-  <p> <%= question.question %> </p>
+  <p id='question'> <%= question.question %> </p>
 
-  <%= link_to name = 'True', question.answer  %>
-  <%= link_to name = 'False', question.answer  %>
+  <section class='buttons'>
+    <p id='true_button'> <%= link_to name = 'True', question.answer  %> </p>
+    <p id='false_button'> <%= link_to name = 'False', question.answer  %> </p>
+  </section>
 
 <% end %>
